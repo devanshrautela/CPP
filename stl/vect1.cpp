@@ -6,6 +6,7 @@ void display(vector<int> &v){
     for(int i=0; i<v.size(); i++)
     {
         cout<<v[i]<<" "; //will not print the last input element 
+        cout<<v.at(i)<<" "; //will print element at index i
     }
 }
 int main()
