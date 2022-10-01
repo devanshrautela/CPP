@@ -21,7 +21,7 @@ int main()
     cout<<"Enter the total number of elements :";
     cin>>size;
     cout<<"Enter the elements :\n";
-    vector<char> vect2(4, 1); //4-element character vector
+    vector<char> vect2(4,1); //4-element character vector
     /* 
     vect2 will already have four elements stored and will further adds element is pushed
     here "4" represent number of elements and "1" represent the character of value 1 on a ascii chart
@@ -30,7 +30,7 @@ int main()
     for(int i=0; i<size; i++)
     {
         cin>>input;
-        vect2.push_back(input);
+        vect2.push_back(input);  
     }
     display(vect2);
     vector<char> vect3(vect2); //same size as vect2
