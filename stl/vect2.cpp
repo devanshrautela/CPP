@@ -1,24 +1,32 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-int display(vector<int> &v)
+template <class T>
+void display(vector<T> &v)
 {
     cout<<"Element in vector are :\n";
     for(int i=0; i<v.size(); i++)
     {
         cout<<v[i]<<" "; //will not print the last input element 
     }
+    cout<<endl;
 }
 //ways to create vectors
 int main()
 {
-    int input, size;
+    char input;
+    int size;
     vector<int> vect1; //zero length integer vector
     display(vect1);
-    cout<<"Enter the total number of elements ";
+    cout<<"Enter the total number of elements :";
     cin>>size;
-    cout<<"Enter the elements\n";
-    vector<char> vect2(4); //4-element character vector
+    cout<<"Enter the elements :\n";
+    vector<char> vect2(4, 1); //4-element character vector
+    /* 
+    vect2 will already have four elements stored and will further adds element is pushed
+    here "4" represent number of elements and "1" represent the character of value 1 on a ascii chart
+    so, it will print charater of value 1 in ascii chart four times
+    */
     for(int i=0; i<size; i++)
     {
         cin>>input;
