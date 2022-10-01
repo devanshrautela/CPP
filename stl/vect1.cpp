@@ -9,6 +9,7 @@ void display(vector<int> &v){
         cout<<v.at(i)<<" "; //will print element at index i
     }
 }
+//how to intialize vectors and some of its fuctionsS
 int main()
 {
     vector<int> vect; //Dynamically grow and can manage size automatically
