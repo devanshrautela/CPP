@@ -18,9 +18,9 @@ int main()
     int size;
     vector<int> vect1; //zero length integer vector
     display(vect1);
-    cout<<"Enter the total number of elements :";
+    cout<<"Enter the total number of elements : ";
     cin>>size;
-    cout<<"Enter the elements :\n";
+    cout<<"Enter the elements : \n";
     vector<char> vect2(4,1); //4-element character vector
     /* 
     vect2 will already have four elements stored and will further adds element is pushed
@@ -36,5 +36,6 @@ int main()
     vector<char> vect3(vect2); //same size as vect2
     display(vect3);
     vector<int> v(6,3); //6-element vector of 3s
+    cout<<"\nSize of vector v :"<<v.size()<<endl; //return size of the vector
     display(v);
 }
