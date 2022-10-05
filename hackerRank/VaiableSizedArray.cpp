@@ -24,4 +24,4 @@ int main() {
         cout<<arr[i][j]<<endl;
     }
     return 0;
-}hello
+}
