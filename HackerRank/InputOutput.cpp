@@ -5,12 +5,12 @@
 #include <algorithm>
 using namespace std;
 
-
-int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+int main()
+{
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int a, b, c, d;
-    cin>>a>>b>>c;
-    d=a+b+c;
-    cout<<d<<endl;
+    cin >> a >> b >> c;
+    d = a + b + c;
+    cout << d << endl;
     return 0;
 }
