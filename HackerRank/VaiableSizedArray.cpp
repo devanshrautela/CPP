@@ -12,7 +12,7 @@ int main() {
     for(i=0; i<n; i++)
     {
         cin>>k;
-        arr[i].resize(k);
+        arr[i].resize(k); //this statement will resize the array (columns)
         for(j=0; j<k; ++j)
         {
             cin>>arr[i][j];
